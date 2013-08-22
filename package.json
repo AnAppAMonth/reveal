@@ -11,10 +11,10 @@
 
     "keywords": ["assertion", "error", "reporting", "testing", "chai", "should"],
 
-    "main" : "./index.js",
+    "main" : "lib/reveal.js",
 
     "scripts": {
-        "pretest": "jshint --verbose --config test/jshint.json ./*js test/*js",
+        "pretest": "jshint --verbose --config test/jshint.json lib/*js lib/*/*js test/*js",
         "test": "make test"
     },
 
